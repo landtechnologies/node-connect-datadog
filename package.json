@@ -1,6 +1,6 @@
 {
 	"name": "connect-datadog",
-	"version": "0.0.6",
+	"version": "0.0.6-landtech-1",
 	"description": "Datadog middleware for Connect JS / Express",
 	"main": "index.js",
 	"repository": {
@@ -15,6 +15,6 @@
 	"license": "MIT",
 	"readmeFilename": "README.md",
 	"dependencies": {
-		"node-dogstatsd": "0.0.6"
+    	"datadog-metrics": "^0.6.1"
 	}
 }
